@@ -1,3 +1,6 @@
-node_modules
-rw-kita.db
+node_modules/
 .env
+data/
+*.db
+*.db-*
+*.log

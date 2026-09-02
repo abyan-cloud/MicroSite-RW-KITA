@@ -1,0 +1,25 @@
+# Dependencies and build output
+**/node_modules/
+**/.next/
+**/*.tsbuildinfo
+
+# Local environment files (keep templates)
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+!**/.env.local.example
+
+# Runtime data and temporary artifacts
+Backend/data/
+Backend/*.db
+Backend/*.db-*
+tmp/
+*.inspect.ndjson
+*.log
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
